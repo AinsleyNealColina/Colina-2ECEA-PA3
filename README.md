@@ -37,6 +37,8 @@ This will show the 1st 5 rows of the selected vehicle(the default number of the 
 Last 5 rows:
 
 `
+
+
 df.tail()
 `
 
@@ -44,3 +46,11 @@ This will show the last 5 rows of the selected vehicle.Resulting to:
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/7b606591-536e-48b2-9c98-8386e4ae0a37" />
 
+## Problem 2:Subsetting,Slicing,and Indexing operations
+
+So we are tasked to:
+
+1.Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7…) of cars. 
+2.Display the row that contains the ‘Model’ of ‘Mazda RX4’.
+3.Display how many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?
+4.Display how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
