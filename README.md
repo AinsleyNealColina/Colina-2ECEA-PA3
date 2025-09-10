@@ -20,4 +20,6 @@ df=pd.read_csv('cars.csv')
 df
 `
 
+This will show the data of cars.csv:
+
 2.
