@@ -91,3 +91,10 @@ The right side will only display the model and the cyl nothing else
 
 <img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/382eeb80-4f84-4704-8072-e795c0d81349" />
 
+4.To determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have. We need to use the function .loc[] and use .isin() since we need to get multiple car models.
+
+`
+cyl_gear = df.loc[df['Model'].isin(['Mazda RX4 Wag', 'Ford Pantera L', 'Honda Civic']),['Model','cyl', 'gear']]
+cyl_gear
+`
+
