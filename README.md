@@ -23,5 +23,6 @@ df
 This will show the data of cars.csv:
 
 2.To load the first and last 5 rows of the resulting cars we need to use the function head and tail like this:
+
 1st 5 rows:
 
