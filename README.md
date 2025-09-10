@@ -89,5 +89,5 @@ cyl
 
 The right side will only display the model and the cyl nothing else
 
-<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/382eeb80-4f84-4704-8072-e795c0d81349" />
+<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/382eeb80-4f84-4704-8072-e795c0d81349" />
 
