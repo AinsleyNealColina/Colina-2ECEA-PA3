@@ -12,6 +12,7 @@ So we are tasked to:
 2. Display the first five and last five rows of the resulting cars.
 
 Steps:
+
 1.To load the csv file we need to type pd.read_csv('file name'.csv) in our case:
 
 `
