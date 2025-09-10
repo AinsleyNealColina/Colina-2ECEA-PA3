@@ -80,4 +80,14 @@ This will show the statistics of the model Mazda RX4:
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/4986c386-fde3-463f-a563-be1cc0707460" />
 
+3.To get the number of cyl of the model:Camaro Z28. We need to use the function .loc[].
+
+`
+cyl = df.loc[df['Model'] == 'Camaro Z28',['Model','cyl']]
+cyl
+`
+
+The right side will only display the model and the cyl nothing else
+
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/382eeb80-4f84-4704-8072-e795c0d81349" />
 
