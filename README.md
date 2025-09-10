@@ -98,3 +98,6 @@ cyl_gear = df.loc[df['Model'].isin(['Mazda RX4 Wag', 'Ford Pantera L', 'Honda Ci
 cyl_gear
 `
 
+Then it will display our selected model,cyl, and gear:
+
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/f0c486d4-e627-4cf8-9206-4df217144fc0" />
