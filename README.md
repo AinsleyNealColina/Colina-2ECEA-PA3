@@ -70,3 +70,16 @@ odd_columns
 The :5 selects the number of rows and the ::2 skips every other column starting 0
 
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/66aa8bbf-3474-4a53-b0bc-ac6d0990984b" />
+
+2.To select the row with the Mazda RX4 we need to identify which category it falls into(Model)
+
+`
+Rows=df[df['Model'] == 'Mazda RX4']
+Rows
+`
+
+This will show the statistics of the model Mazda RX4:
+
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/4986c386-fde3-463f-a563-be1cc0707460" />
+
+
