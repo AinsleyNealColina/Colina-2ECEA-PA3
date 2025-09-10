@@ -51,6 +51,9 @@ This will show the last 5 rows of the selected vehicle.Resulting to:
 So we are tasked to:
 
 1.Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7…) of cars. 
+
 2.Display the row that contains the ‘Model’ of ‘Mazda RX4’.
+
 3.Display how many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?
+
 4.Display how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
