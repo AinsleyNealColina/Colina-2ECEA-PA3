@@ -57,3 +57,16 @@ So we are tasked to:
 3.Display how many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?
 
 4.Display how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
+
+Steps:
+
+1.To display the five rows with odd-numbered columns we need the function iloc because it selects single value by row and column.
+
+`
+odd_columns = df.iloc[:5, ::2]
+odd_columns
+`
+
+The :5 selects the number of rows and the ::2 skips every other column starting 0
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/66aa8bbf-3474-4a53-b0bc-ac6d0990984b" />
