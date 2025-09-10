@@ -69,4 +69,4 @@ odd_columns
 
 The :5 selects the number of rows and the ::2 skips every other column starting 0
 
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/66aa8bbf-3474-4a53-b0bc-ac6d0990984b" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/66aa8bbf-3474-4a53-b0bc-ac6d0990984b" />
