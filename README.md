@@ -14,9 +14,9 @@ So we are tasked to:
 Steps:
 1.To load the csv file we need to type pd.read_csv('file name'.csv) in our case:
 
-'
+`
 df=pd.read_csv('cars.csv')
 df
-'
+`
 
 2.
