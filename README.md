@@ -34,3 +34,13 @@ This will show the 1st 5 rows of the selected vehicle(the default number of the 
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/154a7fe2-2436-4c3d-9381-55414a7cd262" />
 
+Last 5 rows:
+
+`
+df.tail()
+`
+
+This will show the last 5 rows of the selected vehicle.Resulting to:
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/7b606591-536e-48b2-9c98-8386e4ae0a37" />
+
