@@ -78,6 +78,6 @@ Rows
 
 This will show the statistics of the model Mazda RX4:
 
-<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/4986c386-fde3-463f-a563-be1cc0707460" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/4986c386-fde3-463f-a563-be1cc0707460" />
 
 
