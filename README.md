@@ -37,8 +37,6 @@ This will show the 1st 5 rows of the selected vehicle(the default number of the 
 Last 5 rows:
 
 `
-
-
 df.tail()
 `
 
