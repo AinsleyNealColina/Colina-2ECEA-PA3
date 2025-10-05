@@ -99,10 +99,13 @@ This will show the statistics of the model Mazda RX4:
 
 3.To get the number of cyl of the model:Camaro Z28. We need to use the function .loc[].
 
-`
+```python
+#Selects the Model:Camaro Z28 then displays the model and cyl
 cyl = df.loc[df['Model'] == 'Camaro Z28',['Model','cyl']]
+
+#Calls the function to display the output
 cyl
-`
+```
 
 The right side will only display the model and the cyl nothing else
 
@@ -110,8 +113,11 @@ The right side will only display the model and the cyl nothing else
 
 4.To determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have. We need to use the function .loc[] and use .isin() since we need to get multiple car models.
 
-`
+```python
+# Selects the specific models of the vehicles then displays the model,cyl, and gear.
 cyl_gear = df.loc[df['Model'].isin(['Mazda RX4 Wag', 'Ford Pantera L', 'Honda Civic']),['Model','cyl', 'gear']]
+
+#Calls the function to display the output
 cyl_gear
 `
 
