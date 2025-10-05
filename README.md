@@ -119,7 +119,7 @@ cyl_gear = df.loc[df['Model'].isin(['Mazda RX4 Wag', 'Ford Pantera L', 'Honda Ci
 
 #Calls the function to display the output
 cyl_gear
-`
+```
 
 Then it will display our selected model,cyl, and gear:
 
