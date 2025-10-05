@@ -17,25 +17,28 @@ Steps:
 Before we start we must import pandas
 
 ```python
+# This will allow to read the Dataframe and sort data
 import pandas as pd
 ```
 
 1.To load the csv file we need to type pd.read_csv('file name'.csv) in our case:
 
 ```python
+#This will show the data of cars.csv
 df=pd.read_csv('cars.csv')
+
+#Calls the function to load
 df
 ```
-
-This will show the data of cars.csv:
 
 2.To load the first and last 5 rows of the resulting cars we need to use the function head and tail like this:
 
 1st 5 rows:
 
-`
+```python
+#Loads the first 5 rows(the default value insinde the parenthesis is 5)
 df.head()
-`
+```
 
 This will show the 1st 5 rows of the selected vehicle(the default number of the parenthesis is 5).Resulting to:
 
@@ -43,9 +46,10 @@ This will show the 1st 5 rows of the selected vehicle(the default number of the 
 
 Last 5 rows:
 
-`
+```python
+#Loads the last five 5 rows(the default value insinde the parenthesis is 5)
 df.tail()
-`
+```
 
 This will show the last 5 rows of the selected vehicle.Resulting to:
 
