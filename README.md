@@ -71,10 +71,13 @@ Steps:
 
 1.To display the five rows with odd-numbered columns we need the function iloc because it selects single value by row and column.
 
-`
+```python
+# Select first 5 rows, odd-numbered columns (1,3,5). ::2 skips every other column, starting at 0
 odd_columns = df.iloc[:5, ::2]
+
+#Calls the function to display the output
 odd_columns
-`
+```
 
 The :5 selects the number of rows and the ::2 skips every other column starting 0
 
@@ -82,10 +85,13 @@ The :5 selects the number of rows and the ::2 skips every other column starting 
 
 2.To select the row with the Mazda RX4 we need to identify which category it falls into(Model)
 
-`
+```python
+# Select the row where Model is Mazda RX4 and then displays the statistics
 Rows=df[df['Model'] == 'Mazda RX4']
+
+#Calls the function to display the output
 Rows
-`
+```
 
 This will show the statistics of the model Mazda RX4:
 
