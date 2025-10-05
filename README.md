@@ -14,12 +14,18 @@ So we are tasked to:
 
 Steps:
 
+Before we start we must import pandas
+
+```python
+import pandas as pd
+```
+
 1.To load the csv file we need to type pd.read_csv('file name'.csv) in our case:
 
-`
+```python
 df=pd.read_csv('cars.csv')
 df
-`
+```
 
 This will show the data of cars.csv:
 
